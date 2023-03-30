@@ -1,0 +1,361 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins', sans-serif !important;
+}
+html,body{
+    padding: 0;
+    position: relative;
+    z-index: -5;
+}
+.border{
+    border: 2px solid black;
+}
+/* HEADER START */
+.header-main{
+
+    padding: 30px 30px 30px 30px;
+    width: 100%;
+    position: relative;
+    z-index: 1000;
+    background: black;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    
+   
+}
+.name{
+    padding-left: 35px;
+    width: 300px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.nav-menu{
+   
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+
+}
+.nav-list{
+    padding-left: 0;
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+  
+}
+.nav-link{
+    height: 100px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+
+}
+.nav-link>li:hover{
+    color: orangered;
+}
+
+/* HEADER END */
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+main{
+    width: 100%;
+
+}
+/* CONTENT-1 START */
+.content1{
+    width: 100%;
+    
+}
+.aboutme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutme .title{
+    font-size: 25px;
+    margin: 30px;
+}
+.aboutme .about-hid{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+}
+.aboutme .text{}
+.aboutme .about-1{
+    width: 40%;
+    height: 100%;
+}
+.aboutme .about-2{
+  width: 40%;
+  height: 100%;
+  text-align: start;
+}
+
+/* CONTENT-1 END */
+
+/* CONTENT-2 START */
+.svgdiv{
+    margin-top: 30px;
+}
+.portfolio-con{
+    margin-bottom: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.portfolio-con .title{
+    font-size: 25px;
+}
+.portfolio-con .category{
+    margin-top: 20px;
+    margin-left: 40px; 
+}
+.portfolio-con .category-link{
+    margin: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 12px 24px;
+    box-shadow: inset 0px 0px 8px 1px #00000090;
+    border-radius: 40px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #000000;
+}
+.portfolio-con .category-link:hover{
+    color: orangered;
+}
+.portfolio-con .vector-con{
+    margin-top: 30px;
+    margin-bottom: 160px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.portfolio-con .vector-con .title{}
+.portfolio-con .vector{
+    margin: 24px 0px;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+.portfolio-con .vector-box{
+    margin: 1%;
+    width: 300px;
+    height: 300px;
+    flex: 0 0 auto;
+    
+}
+.vector-con .vector-box img{
+   
+    width: 100%;
+    height: 100%;
+    
+}
+.portfolio-con .photo-con{
+    margin-top:30px ;
+    margin-bottom: 170px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.portfolio-con .photo{
+    margin: 24px 0px;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+.portfolio-con .photo-box{
+    margin: 1%;
+    width: 300px;
+    height: 300px;
+    flex: 0 0 auto;
+}
+.portfolio-con .photo-box img{
+    width: 100%;
+    height: 100%;
+}
+.portfolio-con .illustration-con{
+    margin-bottom: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.portfolio-con .illustration{
+    margin: 24px 0px;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+.portfolio-con .illustration-box{
+    margin: 1%;
+    width: 300px;
+    height: 300px;
+    flex: 0 0 auto;
+}
+.portfolio-con .illustration-box img{
+    width: 100%;
+    height: 100%;
+}
+
+/* CONTENT-2 END */
+
+/* CONTENT-3 START */
+.blog-con{
+    padding-top: 60px;
+    padding-bottom: 200px;
+   
+    text-align: center;
+}
+.blog-hid{
+    margin-top: 30px;
+    width: 1000px;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.blog-con .title{
+    font-size: 25px;
+}
+.blog-con .blog-1-hid{
+    width: 400px;
+    height: 770px;
+}
+.blog-1-1{
+    width: 400px;
+    height: 599px;
+    background-image: url(../img/160061.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-1-2{
+
+}
+.blog-1-2 p{
+    
+}
+.blog-con .blog-2-hid{
+    width: 400px;
+    height: 770px;
+}
+.blog-2-1{
+    width: 400px;
+    height: 599px;
+    background-image: url(../img/160061.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.blog-2-2{
+
+}
+
+/* CONTENT-3 END */
+
+/* CONTENT-4 START */
+
+.contact{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact .contact-1{
+    
+    height: 100%;
+}
+.contact .contact-2{
+    width: 500px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.contact .contact-2 .text{
+    border: none;
+    border-bottom: 1px solid;
+    font-size: 20px;
+    
+}
+.contact .button{
+    margin: 20px 150px 0px 200px;
+    width: 100px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+
+}
+
+/* CONTENT-4 END */
+
+/* FOOTER START */
+.footerhid{
+    width: 100%;
+    background: black;
+}
+.footer-con{
+    margin: 0 auto;
+    padding: 40px 0 40px 0;
+    width: 500px;
+    position: relative;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-con{
+    width: 100%;
+    display: flex;
+    margin: 0px auto  ;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.social{
+    width: 34px;
+    height: 34px;
+    fill: white;
+}
+.footer-text{
+    padding-top: 10px;
+    font-size: 10px;
+}
+
+
+/* FOOTER END */
