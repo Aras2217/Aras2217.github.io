@@ -1,0 +1,380 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+html,body{
+    padding: 0;
+    letter-spacing: .2px;
+    
+}
+.container1{
+  padding: 0 48px;
+  background-image: linear-gradient(0deg, rgba(0, 8, 29, 0.7), rgba(0, 8, 29, 0.7)), url(/PROJELER/Netflix/img/card1-bg.jpg);
+  
+}
+
+/* HEADER */
+.header{
+    padding: 0 48px;
+}
+.netflix-logo{
+  width: 30%;
+  padding-left:100px;
+  padding-top:;
+}
+header .oturum{
+  width: 70%;
+  margin: 0 0 0 -12px;
+  padding: 3px;
+}
+.header .oturum-span{
+  width: 120px; 
+  height: 29px;
+}
+.one{
+  font-size: 16px;
+}
+.btn{
+  width: 98px; 
+  height: 29px;
+  background: #E50914;
+  font-size: 13px;
+}
+
+/* CARD1 */
+.card1-body{
+  padding: 94px 100px 0;
+  margin: -16px 0 0;
+}
+.text-1{
+  font-size: 4rem; 
+  font-weight: 900;
+  width: 75%; 
+  color: white;
+}
+.text-medium{
+  font-size: 24px;
+  font-weight: 500; 
+  line-height: 30px; 
+  color: white;
+}
+.form-select {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23FFFFFF' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+    color: white
+}
+.form-control{
+  width: 366px; 
+  height: 48px; 
+  background-color: #31343e; 
+  color: white;
+}
+.form-control::placeholder {
+    color: silver;
+    font-size: 15px;
+  }
+  .form-1{
+    padding-bottom: 50px
+  }
+  .form-1 .eposta{
+    background: linear-gradient(0deg, rgba(0, 8, 29, 1), rgba(0, 8, 29, 1)) padding-box,linear-gradient(271.65deg, #233371 5.26%, #00197a 50.02%,#e50914 97.68%) border-box;
+    border: 4px solid transparent;
+    border-radius: 8px;
+    width: 100%;
+    padding-top: 20px; 
+    padding-left: 50px; 
+    padding-bottom: 20px;
+    text-align: start;
+    
+  }
+  #inputE-mail1{
+    width: 366px; 
+    height: 48px; 
+    background-color: #0f1118; 
+    color: white; 
+    padding: 0 1rem 0.5rem; 
+    font-size: 12px;
+    position:relative;
+    
+  }
+
+  .eposta-written{
+    font-size: 20px; 
+    color:white;
+    padding-bottom: 5px;
+  }
+  .card1-body .btn{
+    color: white; 
+    width: 178px; 
+    height: 48px; 
+    font-size: 24px; 
+    font-weight: 500; 
+    line-height: 1;
+  }
+  .form2 .eposta{
+   
+  }
+  .card1-body .div-input{
+    
+    /*background: linear-gradient(0deg, rgba(0, 8, 29, 1), rgba(0, 8, 29, 1)) padding-box,linear-gradient(271.65deg, #233371 5.26%, #00197a 50.02%,#e50914 97.68%) border-box;
+    border: 4px solid transparent;
+    border-radius: 8px;
+    width: 100%;
+    margin: 40px 0 0;
+    padding: 24px 42px;*/
+    
+  }
+  .izlenme{
+    padding-top: 30px;
+    text-align: start;
+    font-size: 20px; 
+    color: white;
+   
+  }
+  .Email{
+    padding: 1.5rem 1rem 0.5rem;
+  }
+  .submit-button{
+    width: auto;
+    background: rgb(229, 9, 20);
+    margin-left: 8px;
+  }
+  .submit-button .btn{
+    
+    
+  }
+ .container2{
+  margin: 0 0 0 ;
+  padding: 0 48px;
+  background: #040814;
+ }
+  /* CARD2 */
+.card2{
+  background: #090626;
+}
+.card2-1{
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.card2-1-1{
+  width: 50%;
+  display: inline-flex;
+  align-items: center;
+}
+.card2-2{
+  width: 50%;
+  position: relative;
+}
+.card-title{
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+}
+.card2 .card-text{
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-top: 16px;
+}
+
+.container2{
+  width: 100%;
+  height: auto;
+}
+
+.space{
+  width: 87%;
+  border-bottom: 1.21165px solid #494949;
+
+}
+.space-line{
+  display: flex;
+  box-sizing: inherit;
+  justify-content: center;
+  padding: 12px;
+  background: #090626;
+}
+
+/* CARD3 */
+
+.card3{
+  background: #090626;
+}
+.card3-1{
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.card3-2{
+  width: 50%;
+  display: inline-flex;
+  align-items: center;
+}
+.card3-1-1{
+  width: 50%;
+  position: relative;
+}
+ /* CARD4 */
+ .card4{
+  background: #090626;
+}
+.card4-1{
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.card4-1-1{
+  width: 50%;
+  display: inline-flex;
+  align-items: center;
+}
+.card4-2{
+  width: 50%;
+  position: relative;
+}
+/* CARD5 */
+
+.card5{
+  background: #090626;
+}
+.card5-1{
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.card5-2{
+  width: 50%;
+  display: inline-flex;
+  align-items: center;
+}
+.card5-1-1{
+  width: 50%;
+  position: relative;
+}
+
+/* SECTION1 */
+.accord-menu{
+  background: #040814;;
+  /*padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 12px;
+  padding-bottom: 12px;*/
+  margin: 0 0 0;
+  padding: 94px 100px 100px;
+}
+#accordionExample{
+  font-size: 20px ; 
+  background: #040814;
+}
+.sorular{
+  font-size: 44px;
+  line-height: 54px; 
+  background: #040814; 
+  color: #fff; 
+
+}
+.accordion-body{
+  font-size: 24px;
+}
+
+.accordion-item{
+  width: 100%;
+  background: #040814;
+  margin: ;
+  padding:5px;
+  color: #fff;
+}
+.accordion-button{
+  width:;
+  height:;
+  position: relative;
+  font-size: 24px ;
+  background: rgba(34, 51, 98);
+  color: #fff;
+}
+
+@import url("../img/plus-alt-svgrepo-com.svg");
+@import url("../img/multiply-svgrepo-com.svg");
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../img/multiply-svgrepo-com.svg");  
+    font-family: "Font Awesome 5 Free"; 
+  }
+  .accordion-button.collapsed::after {
+    background-image: url("../img/plus-alt-svgrepo-com.svg");
+    font-weight: 400;
+    font-family: "Font Awesome 5 Free"; 
+  }
+  .accordion-button:not(.collapsed) {
+  color: #fff var(--bs-accordion-active-color);
+  background-color: rgba(34, 51, 98);
+  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+.form-2 .eposta{
+  border: none;
+}
+#inputE-mail2{
+  width: 366px; 
+  height: 48px; 
+  background-color: #1c2943; 
+  color: white; 
+  padding: 0 1rem 0.5rem; 
+  font-size: 12px;
+  position:relative;
+  
+}
+.submit-button .btn{
+  color: white; 
+  width: 178px; 
+  height: 48px; 
+  font-size: 24px; 
+  font-weight: 500; 
+  line-height: 1;
+}
+  /* FOOTER */
+  .footer{
+    background: #040814;
+    /*padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 12px;
+    padding-bottom: 12px;*/
+    margin: 0 0 0;
+    padding: 94px 100px 100px;
+    color: #fff;
+  }
+  .footer-soru{
+    padding: 48px;
+  }
+  .footer-main{
+    padding: 48px;
+    color: #fff;
+  }
+  .nav-link{
+    color: #fff;
+  }
+  .oturum1{
+    
+    background: transparent;
+    border: 1px solid black;
+    padding: 48px;
+  }
+  .oturum1 .oturum-span{
+    width: 120px; 
+    height: 29px;
+  }
+  .nflix-logo{
+    padding: 48px;
+  }
+
+
+  /*@media only screen and (max-width: 600px) {
+    .header .oturum .one{
+      display:none;
+    }
+    .header .oturum{
+      width: 100%;
+    }
+  }*/
